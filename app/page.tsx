@@ -6,6 +6,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import { Input } from "@/components/ui/input"
+
 
 export default function Home() {
   return (
@@ -14,14 +16,13 @@ export default function Home() {
       <Card>
   <CardHeader>
     <CardTitle>Sign in</CardTitle>
-    <CardDescription>to continue to application</CardDescription>
+    <CardDescription>to continue to ap</CardDescription>
   </CardHeader>
   <CardContent>
-    <p>Card Content</p>
+    Username
+  <Input placeholder="Username" />
+  <Input placeholder="Password" />
   </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
 </Card>
 
     </div>
