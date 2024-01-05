@@ -21,7 +21,6 @@ export default function Home() {
   <CardContent>
     Username
   <Input placeholder="Username" />
-  <Input placeholder="Password" />
   </CardContent>
 </Card>
 
